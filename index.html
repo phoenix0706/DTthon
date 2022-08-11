@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&display=swap"/>
+	
+    <link rel="stylesheet" href="styles.css"/>
+    <title>DTthon</title>
+</head>
+<body>
+    <navbar>
+        <div class="nav">
+            
+                <img id="nav__logo" src="https://deepthought.education/assets/images/logo/logo.svg" alt="deepThought-logo">
+        <div class="nav__icons">
+            <div class="nav__icon" id="nav__icon-home"><span class="material-symbols-outlined">
+                house
+                </span></div>
+			<div  class="nav__icon"id="nav__icon-tools"><span class="material-symbols-outlined">
+                construction
+                </span></div>
+			<div class="nav__icon" id="nav__icon-bell"><span class="material-symbols-outlined">
+                notifications
+                </span></div>
+                <div id="nav__icon-person"></div>
+			<div ><span id='nav__icon-more' class="material-symbols-outlined">
+                more_vert
+                </span></div>
+
+        </div>    
+        </div>
+    </navbar>
+    <section id="journeyboard">
+        <div id="journeyboard__header">
+            <p class="journeyboard__active" id="journeyboard__heading"> Journey Board </p>
+            <button id="journeyboard__btn" data-active="0"><span class="material-symbols-outlined"> menu </span></button>
+        </div>
+        <div id="journeyboard__body">
+            <h4 class="journeyboard__task-number">1 </h4>
+            <h4 class="journeyboard__active" id="journeyboard__task"> 1.demo Task </h4>
+            
+            <div class="journeyboard__active" id="journeyboard__list">
+                <h5 class="journeyboard__item-head"><sup><span class="journeyboard__item"> . </span></sup> Loading... </h5>
+            </div>
+        </div>
+        
+    </section>
+    
+        <div class="task">
+            <div class="task__header">
+                <h4 class="task__heading">You Are Taking Challenges Of New Project</h4>
+            </div>
+        </div>
+        <div class="task__body">
+            <div class="task__container">
+                <h4 id="task__loading"> Loading... </h4>
+            </div>
+            <div class="assets">
+                <div id="assets_loader"></div>
+            </div>
+        
+        <button id="submit__btn"><h5> Next </h5></button>
+    
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
